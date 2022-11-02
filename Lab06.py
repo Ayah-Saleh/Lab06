@@ -14,6 +14,7 @@ def encode(passString):  # encode method to shift each digit in passcode up by 3
         newStr += str(val)  # casts int back to str in order to concatenate to new str variable
     return newStr
 
+# Mia was here! - already each did decode method separately
 
 def decode(passString):  # decode method to shift each encoded passcode back to original passcode
     newStr = ""  # new var to store new pass word
